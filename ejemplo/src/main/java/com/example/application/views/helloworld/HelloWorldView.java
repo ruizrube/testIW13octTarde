@@ -19,7 +19,7 @@ public class HelloWorldView extends HorizontalLayout {
 
     public HelloWorldView() {
         name = new TextField("Escriba tu nombre");
-        sayHello = new Button("Saludar");
+        sayHello = new Button("Saludar!!");
         sayHello.addClickListener(e -> {
             Notification.show("Hello " + name.getValue());
         });
